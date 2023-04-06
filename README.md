@@ -6,16 +6,16 @@ Los archivos presentes en esta página, son básicos en programación y son algu
 ### Algoritmos
 calculoImc.html
 `
-<meta charset="UTF-8">
+&lt;meta charset="UTF-8"&gt;
 
-<h1>PROGRAMA CALCULO DE ÍNDICE DE MASA CORPORAL.</h1>
-<script>
+&lt;h1&gt;PROGRAMA CALCULO DE ÍNDICE DE MASA CORPORAL.&lt;/h1&gt;
+&lt;script&gt;
     var numeroSalto = 3; // estos variable cambia los saltos de línea cuando se invoca la funcion "imprimir".
     
         function saltarLinea(salto) {
             // repeat multiplica un string tantas veces como su argumento.
-            document.write("<br>".repeat(salto));
-            document.write("<hr>");
+            document.write("&lt;br&gt;".repeat(salto));
+            document.write("&lt;hr&gt;");
         }
 
         function imprimir(frase){
@@ -34,41 +34,41 @@ calculoImc.html
 
     calcularImc(nombre, peso, altura);    
     
-</script>
+&lt;/script&gt;
 `
 ---
 
 calculoComsumo.html
 `
-<meta charset="UTF-8">
-<script>
+&lt;meta charset="UTF-8"&gt;
+&lt;script&gt;
 
-    document.write("<h3>¿Alcohol o gasolina?</h3><br>");
-    document.write("Calculo de la eficiencia de consumo.<br>");
-    document.write("Comparación entre alcohol o gasolina.<br>");
-    document.write("<br>");
-    document.write("Capacidad del tanque: <i>40 litros</i>.<br>");
-    document.write("Kilometros recorridos con gasolina: <i>480 litros</i>.<br>");
-    document.write("Kilometros recorridos con alcohol: <i>300 litros</i>.<br>");
+    document.write("&lt;h3&gt;¿Alcohol o gasolina?&lt;/h3&gt;&lt;br&gt;");
+    document.write("Calculo de la eficiencia de consumo.&lt;br&gt;");
+    document.write("Comparación entre alcohol o gasolina.&lt;br&gt;");
+    document.write("&lt;br&gt;");
+    document.write("Capacidad del tanque: &lt;i&gt;40 litros&lt;/i&gt;.&lt;br&gt;");
+    document.write("Kilometros recorridos con gasolina: &lt;i&gt;480 litros&lt;/i&gt;.&lt;br&gt;");
+    document.write("Kilometros recorridos con alcohol: &lt;i&gt;300 litros&lt;/i&gt;.&lt;br&gt;");
     var eficiencia_gasolina = 480/40;
     var eficiencia_alcohol = 300/40;
-    document.write("La eficiencia del carro con gasolina es: <i>"+eficiencia_gasolina +"</i> k/litro.<br>");
-    document.write("La eficiencia del carro con alcohol es: <i>"+eficiencia_alcohol +"</i> k/litro.<br>");
+    document.write("La eficiencia del carro con gasolina es: &lt;i&gt;"+eficiencia_gasolina +"&lt;/i&gt; k/litro.&lt;br&gt;");
+    document.write("La eficiencia del carro con alcohol es: &lt;i&gt;"+eficiencia_alcohol +"&lt;/i&gt; k/litro.&lt;br&gt;");
 
-</script>
+&lt;/script&gt;
 `
 ---
 
 saltoLinea.html
 `
-<meta charset="UTF-8">
+&lt;meta charset="UTF-8"&gt;
 
-<h1>PROGRAMA</h1>
-<script>
+&lt;h1&gt;PROGRAMA&lt;/h1&gt;
+&lt;script&gt;
 
         function saltarLinea(salto) {
-            document.write("<br>".repeat(salto));
-            document.write("<hr>");
+            document.write("&lt;br&gt;".repeat(salto));
+            document.write("&lt;hr&gt;");
         }
 
         function imprimir(frase){
@@ -88,5 +88,5 @@ saltoLinea.html
     imprimir("Lina tiene " + (anho - 2000) + " años.");
     
 
-</script>
+&lt;/script&gt;
 `
