@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+
+<h1>PROGRAMA</h1>
+<script>
+
+        function saltarLinea(salto) {
+            document.write("<br>".repeat(salto));
+            document.write("<hr>");
+        }
+
+        function imprimir(frase){
+            document.write(frase);
+            saltarLinea(numeroSalto);
+        }
+    
+    var anho = 2023;
+    var numeroSalto = 3;
+
+    imprimir("Juan tiene " + (anho - 1995) + " años.");
+    
+    imprimir("Pedro tiene " + (anho - 1990) + " años.");
+    
+    imprimir("Amanda tiene " + (anho - 1998) + " años.");
+    
+    imprimir("Lina tiene " + (anho - 2000) + " años.");
+    
+
+</script>
