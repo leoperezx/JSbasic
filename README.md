@@ -94,4 +94,4 @@ Los siguientes algoritmos se realizaron durante el transcurso del contenido de l
 
     </script>
 
-> :copyright [leoperezx.github.io](#leoperezx) 
+> :copyright: [Leoperez](http://leoperezx.github.io) 
