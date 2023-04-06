@@ -1,11 +1,11 @@
 # JSbasic
 ### Repositorio de los algoritmos realizados en el curso de Alura sobre Frontend.
 
-Los archivos presentes en esta página, son básicos en programación y son algunos de los realizados en un curso en linea. El código en su mayoria esta hecho en *javascript*. Sin embargo, la intención aquí es aprender la sintáxis tanto de **JS** como repasar algo de **HTML**, **CSS** y **Markdown**. Realizo esta pagina como resumen de los algoritmos y aprovecho para realizar un registro de lo aprendido en clase.
+Los archivos presentes en esta página, son básicos en programación y son algunos de los realizados en un curso en linea. El código en su mayoria esta hecho en *javascript*. Sin embargo, la intención aquí es aprender la sintáxis tanto de *JS* como repasar algo de *HTML*, *CSS* y *Markdown*. Realizo esta pagina como resumen de los algoritmos y aprovecho para realizar un registro de lo aprendido en clase.
 
 ### Algoritmos
-calculoImc.html
-`
+**calculoImc.html**
+
     <meta charset="UTF-8">
 
     <h1>PROGRAMA CALCULO DE ÍNDICE DE MASA CORPORAL.</h1>
@@ -35,11 +35,11 @@ calculoImc.html
         calcularImc(nombre, peso, altura);    
         
     </script>
-`
+
 ---
 
-calculoComsumo.html
-`
+**calculoComsumo.html**
+
     <meta charset="UTF-8">
     <script>
 
@@ -56,11 +56,11 @@ calculoComsumo.html
         document.write("La eficiencia del carro con alcohol es: <i>"+eficiencia_alcohol +"</i> k/litro.<br>");
 
     </script>
-`
+
 ---
 
-saltoLinea.html
-`
+**saltoLinea.html**
+
     <meta charset="UTF-8">
 
     <h1>PROGRAMA</h1>
@@ -89,4 +89,3 @@ saltoLinea.html
         
 
     </script>
-`
