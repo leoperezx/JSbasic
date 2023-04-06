@@ -3,14 +3,18 @@
 
 Los archivos presentes en esta página, son básicos en programación y son algunos de los realizados en un curso en linea. El código en su mayoria esta hecho en *javascript*. Sin embargo, la intención aquí es aprender la sintáxis tanto de *JS* como repasar algo de *HTML*, *CSS* y *Markdown*. Realizo esta pagina como resumen de los algoritmos y aprovecho para realizar un registro de lo aprendido en clase.
 
-### Algoritmos
+
+### Lógica de programación: Primeros pasos.
+
+Los siguientes algoritmos se realizaron durante el transcurso del contenido de la clase **Lógica de programación: Primeros pasos"**. Cada video desarrolla uno o dos algorimtos con difentes temas. Trate de desarrollar la mayoría, sin embargo, solo he consignados los más interesantes a mi criterio.
+
 **calculoImc.html**
 
     <meta charset="UTF-8">
 
     <h1>PROGRAMA CALCULO DE ÍNDICE DE MASA CORPORAL.</h1>
     <script>
-        var numeroSalto = 3; // estos variable cambia los saltos de línea cuando se invoca la funcion "imprimir".
+        var numeroSalto = 3; // variable que cambia los saltos de línea cuando se invoca la funcion "imprimir".
         
             function saltarLinea(salto) {
                 // repeat multiplica un string tantas veces como su argumento.
@@ -89,3 +93,5 @@ Los archivos presentes en esta página, son básicos en programación y son algu
         
 
     </script>
+
+> :copyright [leoperezx.github.io](#leoperezx) 
