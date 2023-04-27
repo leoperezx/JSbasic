@@ -1,14 +1,14 @@
 # JSbasic
 ### Repositorio de los algoritmos realizados en el curso de Alura sobre Frontend.
 
-Los archivos presentes en esta página, son básicos en programación y son algunos de los realizados en un curso en linea que estoy realizando en el presente año (2023). El código en su mayoria esta hecho en *javascript*. Sin embargo, la intención aquí es aprender la sintáxis tanto de *JS* como repasar algo de *HTML*, *CSS* y *Markdown* lenguajes que he aprendido por mi propia cuenta. Realizo esta pagina como resumen de los algoritmos y aprovecho para realizar un registro de lo aprendido en clase. Además, reuno todos los archivos dentro de una carpeta la cual esta llena de ejemplos. Cada uno de los archivos tiene solo un pequeño ejemplo de un tema en específico, por lo tanto son muy simples pero intento poner comentarios aclaratorios de temas que considero pertinentes para futuras consultas propias o agenas.
+Los archivos presentes en esta página, son básicos en programación y son algunos de los realizados en un curso en línea que estoy realizando en el presente año (2023). El código en su mayoria esta hecho en *javascript*. Sin embargo, la intención aquí es aprender la sintaxis tanto de *JS* cómo repasar algo de *HTML*, *CSS* y *Markdown* lenguajes que he aprendido por mi propia cuenta. Realizo esta página como resumen de los algoritmos y aprovecho para realizar un registro de lo aprendido en clase. Además, reuno todos los archivos dentro de una carpeta la cual está llena de ejemplos. Cada uno de los archivos tiene solo un pequeño ejemplo de un tema en específico, por lo tanto son muy simples pero intento poner comentarios aclaratorios de temas que considero pertinentes para futuras consultas propias o ajenas.
 
-Espero te guste mi repositorio de funciones. Quedo atento a comentarios.
+Espero que te guste mi repositorio de funciones. Quedo atento a los comentarios.
 
 
 ### Lógica de programación: Primeros pasos.
 
-Los siguientes algoritmos se realizaron durante el transcurso del contenido de la clase **Lógica de programación: Primeros pasos"**. Además, sigo un libro **JavaScript, Guía completa** de Alessandra Salvaggio y Gualtiero Testa. Cada video del curso y cada capítulo del libro desarrolla uno o dos algorimtos con difentes temas, funciones y métodos que son interesantes. Trate de desarrollarlos y apropiarlos, sin embargo, solo consigno los más interesantes a mi criterio.
+Los siguientes algoritmos se realizaron durante el transcurso del contenido de la clase **Lógica de programación: Primeros pasos"**. Además, sigo un libro **JavaScript, Guía completa** de Alessandra Salvaggio y Gualtiero Testa. Cada video del curso y cada capítulo del libro desarrolla uno o dos algoritmos con diferentes temas, funciones y métodos que son interesantes. Trato de desarrollarlos tal cual los estudio, sin embargo, los he llegado a alterar un poco y solo consigno los más interesantes a mi criterio.
 
 **calculoImc.html**
 
@@ -98,9 +98,9 @@ Los siguientes algoritmos se realizaron durante el transcurso del contenido de l
 
 ### Práctica con juegos y animaciones.
 
-Siguiendo con el curso de "progración, llegamos a un tema interesante. Llegamos a un desarrollo de un videojuego. Los siguientes algoritmos los organice de forma progresiva para llegar a un minijuego hecho en HTML, CSS y JavaScript. Lo que pretendo a continuación es ir acumulando el paso a paso, registrar el progreso y tal vez, llegar a un descente, pequeño pero entretenido videojuego hecho en HTML CSS y JavaScript.
+Siguiendo con el curso de "programación", llegamos a un tema interesante. Llegamos a un desarrollo de un videojuego. Los siguientes algoritmos los organice de forma progresiva para llegar a un minijuego hecho en HTML, CSS y JavaScript. Lo que pretendo a continuación es ir acumulando el paso a paso, registrar el progreso y tal vez, llegar a un descente, pequeño pero entretenido videojuego hecho en HTML CSS y JavaScript.
 
-Te describo lo que hicimos: Iniciamos con la creación del canvas y luego la creación de varias funciones. El objetivo es crear una imagen de un tiro al blanco, y con el mouse dispara al blanco que es una diana. Las funciones limpiarPantalla, actualizarPantalla, sortearPosicion, disenharObjetivo, actualizarPantalla y disparar son creadas para el desarrollo del minijuego. El canvas que se convierte en el área del juego y donde se regitran los disparos. Al final de esta etapa, el código queda en esto:
+Te describo lo que hicimos: Iniciamos con la creación del canvas y luego la creación de varias funciones. El objetivo es crear una imagen de un tiro al blanco, y con el mouse dispara al blanco que es una diana. Las funciones limpiarPantalla, actualizarPantalla, sortearPosicion, disenharObjetivo, actualizarPantalla y disparar son creadas para el desarrollo del minijuego. El canvas se convierte en el área del juego y donde se registran los disparos. Al final de esta etapa, el código queda en esto:
 
 **target.html**
 
@@ -162,7 +162,7 @@ Te describo lo que hicimos: Iniciamos con la creación del canvas y luego la cre
 
     </script> 
 
-El resultado me gusto pero, quice ir mas allá. No tengo claro por que recorde los videojuego de la vieja escuela. Esos del *"Atari 2600"*, con sus imagenes de 8-bit pero, me agrado la idea de mejorarlo utilizando un personaje de *Space-invaders*. La primer dificultad fue crear al personaje, no quice ponerme a buscar una imagen, hacer un "sprite" y todo eso. La verdad me sentia llendo en contra de la esencia **8-bit**. Logré una función que dibujaba el personaje, no era la mejor función, sin embargo, funcionaba. Pero, gracias a un compañero del aula virtual donde estoy estudiando, que pudo orientarme hacia algo que yo estaba insinuando con mi código pero que no estaba del todo ejecutado y que es una mejor forma, más eficiente de hacer el mapa de bits (bitmap en ingles) del personaje. Logré aprender algo nuevo que mejora mi código. Gracias a eso puede hacer el personaje de una forma mas sencilla y elegante. Esto me alento a seguir mejorando y se me ocurrio animar el personaje. 
+El resultado me gustó pero quise ir más allá. No tengo claro porque recordé los videojuegos de la vieja escuela. Esos del *"Atari 2600"*, con sus imágenes de 8-bit pero, me agrado la idea de mejorarlo utilizando un personaje de *Space-invaders*. La primera dificultad fue crear al personaje, no quise ponerme a buscar una imagen, hacer un "sprite" y todo eso. La verdad me sentía yendo en contra de la esencia **8-bit**. Logré una función que dibujaba el personaje, no era la mejor función, sin embargo, funcionaba. Pero, gracias a un compañero del aula virtual donde estoy estudiando, que pudo orientarme hacia algo que yo estaba insinuando con mi código pero que no estaba del todo ejecutado y que es una mejor forma, más eficiente de hacer el mapa de bits del personaje (bitmap). Logré aprender algo nuevo que mejora mi código. Gracias a eso puede hacer el personaje de una forma más sencilla y elegante. Esto me alentó a seguir mejorando y se me ocurrió animar el personaje. 
 
 El resultado parcial, es un pequeño minivideojuego basado en el anterior algoritmo *target.html* pero, con un personaje animado. 
 
@@ -278,6 +278,6 @@ El resultado parcial, es un pequeño minivideojuego basado en el anterior algori
 
     </script> 
 
-Estoy seguro que aún le falta mucho y que mi código no esta tan completo como quiciera. Ten en cuenta que es mi primer intento de hacer un videojuego pero, desde ya tengo algunas ideas para seguir mejorandolo. Se que debo separar cada una de las funciones que implican cambio o animación para a lo último mandar a imprimir todos los elementos. Ya agrege una propiedad para el personaje que es la *magnitud* y quiero agragar otra para el tamaño del *paso* cuando se mueve. Estas propiedades son las que pienso manipular a medida que el juegador suba de nivel para aumentar la dificultad. Por otro lado, presenta agunos problemas al momento de "sentir" el disparo dentro del área del personaje cuando cambia su magnitud, habrá que analizar bien que es lo que pasa para corregirlo. Por ahora, esas serán las mejoras. Llegara el momento en que pensare en la apariencia y en algún sistema de puntuación.  
+Estoy seguro que aún le falta mucho y que mi código no está tan completo como quisiera. Ten en cuenta que es mi primer intento de hacer un videojuego pero, desde ya tengo algunas ideas para seguir mejorandolo. Se que debo separar cada una de las funciones que implican cambio o animación para a lo último mandar a imprimir todos los elementos. Ya agregue una propiedad para el personaje que es la *magnitud* y quiero agregar otra para el tamaño del *paso* cuando se mueve. Estas propiedades son las que pienso manipular a medida que el jugador suba de nivel para aumentar la dificultad. Por otro lado, presenta algunos problemas al momento de "sentir" el disparo dentro del área del personaje cuando cambia su magnitud, habrá qué analizar bien que es lo que pasa para corregirlo. Por ahora, esas serán las mejoras. Llegará el momento en que pensaré en la apariencia y en algún sistema de puntuación.  
 
 > :copyright: [Leoperez](http://leoperezx.github.io) 
