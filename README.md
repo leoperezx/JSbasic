@@ -160,9 +160,9 @@ Iniciamos con la creación del canvas y luego la creación de varias funciones c
 
     </script> 
 
-El resultado me gusto y quice ir mas allá. No tengo claro por que recorde los videojuego de la vieja escuela. Esos del *"Atari 2600"*, con sus imagenes de 8-bit pero, me agrado la idea de mejorar el video juego utilizando un personaje de *Space-invaders* la puesto el personaje utilizando mi forma de hacer el personaje, un compañero del aula virtual donde estoy estudiando me hablo de una mejor forma de hacer el mapa de bits (bitmap en ingles). Gracias a eso puede hacer el personaje de una forma mas sencilla y elegante. Esto me alento a seguir mejorando y se me ocurrio animar al personaje. 
+El resultado me gusto y quice ir mas allá. No tengo claro por que recorde los videojuego de la vieja escuela. Esos del *"Atari 2600"*, con sus imagenes de 8-bit pero, me agrado la idea de mejorarlo utilizando un personaje de *Space-invaders*. La función cómo realizaba el personaje no era la mejor y gracias a un compañero del aula virtual donde estoy estudiando el cual me hablo de una mejor forma eficiente de hacer el mapa de bits (bitmap en ingles) del personaje. Logré aprender algo nuevo y a mejorar mi código.Gracias a eso puede hacer el personaje de una forma mas sencilla y elegante. Esto me alento a seguir mejorando y se me ocurrio animarlo. 
 
-El resultado parcial es un pequeño videojuego basado en el anterior pero con un personaje animado. Cuando veo un personaje en los videojuego hay algo que se activa en mi y seguro los que saben de videojuegos lo podrán justificar mejor. 
+El resultado parcial es un pequeño videojuego basado en el anterior algoritmo *target.html* pero, con un personaje animado. Cuando veo un personaje en los videojuego hay algo que se activa en mi y seguro los que saben de videojuegos lo podrán justificar mejor. 
 
 **Space_invaders_minigame.html**
 
@@ -274,6 +274,6 @@ El resultado parcial es un pequeño videojuego basado en el anterior pero con un
 
     </script> 
 
-Es solo mi primer intento de videojuego pero, desde ya tengo algunas ideas mas para seguir mejorandolo. Se que debo separar cada una de las funciones que implican cambio o animación. Ya agrege una propiedad para el personaje que es la *magnitud* y quiero agragar otra para el tamaño del "paso" cuando se mueve. Estas propiedades son las que pienso manipular a medida que el juegador suba de nivel. Por otro lado, presenta agunos problemas a la ora de "sentir" el disparo dentro del área del personaje cuado cambia su magnitud, habrá que analizar bien que es lo que pasa para corregirlo. Por ahora, esas serán las mejoras, llegara el momento en que mensare en algun sistame de puntuación.  
+Estoy seguro que aún le falta mucho y que mi código no esta tan completo como quiciera. Ten en cuenta que es mi primer intento de hacer un videojuego pero, desde ya tengo algunas ideas para seguir mejorandolo. Se que debo separar cada una de las funciones que implican cambio o animación para a lo último mandar a imprimir todos los elementos. Ya agrege una propiedad para el personaje que es la *magnitud* y quiero agragar otra para el tamaño del *paso* cuando se mueve. Estas propiedades son las que pienso manipular a medida que el juegador suba de nivel para aumentar la dificultad. Por otro lado, presenta agunos problemas al momento de "sentir" el disparo dentro del área del personaje cuando cambia su magnitud, habrá que analizar bien que es lo que pasa para corregirlo. Por ahora, esas serán las mejoras. Llegara el momento en que pensare en la apariencia y en algún sistema de puntuación.  
 
 > :copyright: [Leoperez](http://leoperezx.github.io) 
