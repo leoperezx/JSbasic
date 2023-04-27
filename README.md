@@ -3,9 +3,9 @@
 
 Los archivos presentes en esta página, son básicos en programación y son algunos de los realizados en un curso en línea que estoy realizando en el presente año (2023). El código en su mayoria esta hecho en *javascript*. Sin embargo, la intención aquí es aprender la sintaxis tanto de *JS* cómo repasar algo de *HTML*, *CSS* y *Markdown* lenguajes que he aprendido por mi propia cuenta. Realizo esta página como resumen de los algoritmos y aprovecho para realizar un registro de lo aprendido en clase. Además, reuno todos los archivos dentro de una carpeta la cual está llena de ejemplos. Cada uno de los archivos tiene solo un pequeño ejemplo de un tema en específico, por lo tanto son muy simples pero intento poner comentarios aclaratorios de temas que considero pertinentes para futuras consultas propias o ajenas.
 
-Espero que te guste mi repositorio de funciones. Quedo atento a los comentarios.
+Espero que te guste mi repositorio de funciones básicas de JS. Quedo atento a los comentarios.
 
-Menú : | [CalculoIMC.html](#calculo) | [calculoComsumo.html](#consumo) | [Juegos](#juegos) | [target.html](#target) | [minigame.html](#minigame) 
+Menú : | [CalculoIMC.html](#calculo) | [calculoComsumo.html](#consumo) | [saltoLinea.html](#salto) |[Juegos](#juegos) | [target.html](#target) | [minigame.html](#minigame) 
 
 ### Lógica de programación: Primeros pasos.
 
@@ -43,6 +43,7 @@ Los siguientes algoritmos se realizaron durante el transcurso del contenido de l
         
     </script>
 
+Menú : | [Subir](#my-header)
 ---
 
 **<a id="consumo">calculoComsumo.html**
@@ -64,9 +65,11 @@ Los siguientes algoritmos se realizaron durante el transcurso del contenido de l
 
     </script>
 
+Menú : | [Subir](#my-header)
 ---
 
-**saltoLinea.html**
+**<a id="salto">saltoLinea.html**
+
 
     <meta charset="UTF-8">
 
@@ -96,6 +99,9 @@ Los siguientes algoritmos se realizaron durante el transcurso del contenido de l
         
 
     </script>
+
+Menú : | [Subir](#my-header)
+---
 
 ### <a id="juegos">Práctica con juegos y animaciones.
 
@@ -162,6 +168,9 @@ Te describo lo que hicimos: Iniciamos con la creación del canvas y luego la cre
         pantalla.onclick=disparar;
 
     </script> 
+
+Menú : | [Subir](#my-header)
+---
 
 El resultado me gustó pero quise ir más allá. No tengo claro porque recordé los videojuegos de la vieja escuela. Esos del *"Atari 2600"*, con sus imágenes de 8-bit pero, me agrado la idea de mejorarlo utilizando un personaje de *Space-invaders*. La primera dificultad fue crear al personaje, no quise ponerme a buscar una imagen, hacer un "sprite" y todo eso. La verdad me sentía yendo en contra de la esencia **8-bit**. Logré una función que dibujaba el personaje, no era la mejor función, sin embargo, funcionaba. Pero, gracias a un compañero del aula virtual donde estoy estudiando, que pudo orientarme hacia algo que yo estaba insinuando con mi código pero que no estaba del todo ejecutado y que es una mejor forma, más eficiente de hacer el mapa de bits del personaje (bitmap). Logré aprender algo nuevo que mejora mi código. Gracias a eso puede hacer el personaje de una forma más sencilla y elegante. Esto me alentó a seguir mejorando y se me ocurrió animar el personaje. 
 
@@ -278,6 +287,9 @@ El resultado parcial, es un pequeño minivideojuego basado en el anterior algori
     pantalla.onclick=disparar;
 
     </script> 
+
+Menú : | [Subir](#my-header)
+---
 
 Estoy seguro que aún le falta mucho y que mi código no está tan completo como quisiera. Ten en cuenta que es mi primer intento de hacer un videojuego pero, desde ya tengo algunas ideas para seguir mejorandolo. Se que debo separar cada una de las funciones que implican cambio o animación para a lo último mandar a imprimir todos los elementos. Ya agregue una propiedad para el personaje que es la *magnitud* y quiero agregar otra para el tamaño del *paso* cuando se mueve. Estas propiedades son las que pienso manipular a medida que el jugador suba de nivel para aumentar la dificultad. Por otro lado, presenta algunos problemas al momento de "sentir" el disparo dentro del área del personaje cuando cambia su magnitud, habrá qué analizar bien que es lo que pasa para corregirlo. Por ahora, esas serán las mejoras. Llegará el momento en que pensaré en la apariencia y en algún sistema de puntuación.  
 
