@@ -1,16 +1,17 @@
-# JSbasic
-### Repositorio de los algoritmos realizados en el curso de Alura sobre Frontend.
+# <a id="my-header">JSbasic
+### </a>Repositorio de los algoritmos realizados en el curso de Alura sobre Frontend.
 
 Los archivos presentes en esta página, son básicos en programación y son algunos de los realizados en un curso en línea que estoy realizando en el presente año (2023). El código en su mayoria esta hecho en *javascript*. Sin embargo, la intención aquí es aprender la sintaxis tanto de *JS* cómo repasar algo de *HTML*, *CSS* y *Markdown* lenguajes que he aprendido por mi propia cuenta. Realizo esta página como resumen de los algoritmos y aprovecho para realizar un registro de lo aprendido en clase. Además, reuno todos los archivos dentro de una carpeta la cual está llena de ejemplos. Cada uno de los archivos tiene solo un pequeño ejemplo de un tema en específico, por lo tanto son muy simples pero intento poner comentarios aclaratorios de temas que considero pertinentes para futuras consultas propias o ajenas.
 
 Espero que te guste mi repositorio de funciones. Quedo atento a los comentarios.
 
+Menú : | [CalculoIMC.html](#calculo) | [calculoComsumo.html](#consumo) | [Juegos](#juegos) | [target.html](#target) | [minigame.html](#minigame) 
 
 ### Lógica de programación: Primeros pasos.
 
 Los siguientes algoritmos se realizaron durante el transcurso del contenido de la clase **Lógica de programación: Primeros pasos"**. Además, sigo un libro **JavaScript, Guía completa** de Alessandra Salvaggio y Gualtiero Testa. Cada video del curso y cada capítulo del libro desarrolla uno o dos algoritmos con diferentes temas, funciones y métodos que son interesantes. Trato de desarrollarlos tal cual los estudio, sin embargo, los he llegado a alterar un poco y solo consigno los más interesantes a mi criterio.
 
-**calculoImc.html**
+**<a id="calculo">calculoImc.html**
 
     <meta charset="UTF-8">
 
@@ -44,7 +45,7 @@ Los siguientes algoritmos se realizaron durante el transcurso del contenido de l
 
 ---
 
-**calculoComsumo.html**
+**<a id="consumo">calculoComsumo.html**
 
     <meta charset="UTF-8">
     <script>
@@ -96,13 +97,13 @@ Los siguientes algoritmos se realizaron durante el transcurso del contenido de l
 
     </script>
 
-### Práctica con juegos y animaciones.
+### <a id="juegos">Práctica con juegos y animaciones.
 
 Siguiendo con el curso de "programación", llegamos a un tema interesante. Llegamos a un desarrollo de un videojuego. Los siguientes algoritmos los organice de forma progresiva para llegar a un minijuego hecho en HTML, CSS y JavaScript. Lo que pretendo a continuación es ir acumulando el paso a paso, registrar el progreso y tal vez, llegar a un descente, pequeño pero entretenido videojuego hecho en HTML CSS y JavaScript.
 
 Te describo lo que hicimos: Iniciamos con la creación del canvas y luego la creación de varias funciones. El objetivo es crear una imagen de un tiro al blanco, y con el mouse dispara al blanco que es una diana. Las funciones limpiarPantalla, actualizarPantalla, sortearPosicion, disenharObjetivo, actualizarPantalla y disparar son creadas para el desarrollo del minijuego. El canvas se convierte en el área del juego y donde se registran los disparos. Al final de esta etapa, el código queda en esto:
 
-**target.html**
+**<a id="target">target.html**
 
     <canvas width="600" height="400"> </canvas>
 
@@ -168,7 +169,7 @@ El resultado parcial, es un pequeño minivideojuego basado en el anterior algori
 
 > ###### Cuando veo un personaje en los videojuego, hay algo que se activa en mi. No estoy muy seguro de lo que es pero, son más interesantes. Seguro los que saben de videojuegos lo podrán justificar mejor. 
 
-**Space_invaders_minigame.html**
+**<a id="minigame">minigame.html**
 
     <canvas width="600" height="400"></canvas>
     <script> 
