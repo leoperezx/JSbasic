@@ -1,12 +1,14 @@
 # JSbasic
 ### Repositorio de los algoritmos realizados en el curso de Alura sobre Frontend.
 
-Los archivos presentes en esta página, son básicos en programación y son algunos de los realizados en un curso en linea. El código en su mayoria esta hecho en *javascript*. Sin embargo, la intención aquí es aprender la sintáxis tanto de *JS* como repasar algo de *HTML*, *CSS* y *Markdown*. Realizo esta pagina como resumen de los algoritmos y aprovecho para realizar un registro de lo aprendido en clase.
+Los archivos presentes en esta página, son básicos en programación y son algunos de los realizados en un curso en linea que estoy realizando en el presente año (2023). El código en su mayoria esta hecho en *javascript*. Sin embargo, la intención aquí es aprender la sintáxis tanto de *JS* como repasar algo de *HTML*, *CSS* y *Markdown* lenguajes que he aprendido por mi propia cuenta. Realizo esta pagina como resumen de los algoritmos y aprovecho para realizar un registro de lo aprendido en clase. Además, reuno todos los archivos dentro de una carpeta la cual esta llena de ejemplos. Cada uno de los archivos tiene solo un pequeño ejemplo de un tema en específico, por lo tanto son muy simples pero intento poner comentarios aclaratorios de temas que considero pertinentes para futuras consultas propias o agenas.
+
+Espero te guste mi repositorio de funciones. Quedo atento a comentarios.
 
 
 ### Lógica de programación: Primeros pasos.
 
-Los siguientes algoritmos se realizaron durante el transcurso del contenido de la clase **Lógica de programación: Primeros pasos"**. Cada video desarrolla uno o dos algorimtos con difentes temas. Trate de desarrollar la mayoría, sin embargo, solo he consignados los más interesantes a mi criterio.
+Los siguientes algoritmos se realizaron durante el transcurso del contenido de la clase **Lógica de programación: Primeros pasos"**. Además, sigo un libro **JavaScript, Guía completa** de Alessandra Salvaggio y Gualtiero Testa. Cada video del curso y cada capítulo del libro desarrolla uno o dos algorimtos con difentes temas, funciones y métodos que son interesantes. Trate de desarrollarlos y apropiarlos, sin embargo, solo consigno los más interesantes a mi criterio.
 
 **calculoImc.html**
 
@@ -96,9 +98,9 @@ Los siguientes algoritmos se realizaron durante el transcurso del contenido de l
 
 ### Práctica con juegos y animaciones.
 
-Siguiendo con el curso de "prograciónme tope con algo interesante. Los siguientes algoritmos los organice de forma progresiva para llegar a un pequeño juego hecho en html y css. Lo que pretendo es ir acumulando el paso a paso, ver el progreso y tal vez llegar a un descente, pequeño pero entretenido videojuego hecho en HTML y JS.
+Siguiendo con el curso de "progración, llegamos a un tema interesante. Llegamos a un desarrollo de un videojuego. Los siguientes algoritmos los organice de forma progresiva para llegar a un minijuego hecho en HTML, CSS y JavaScript. Lo que pretendo a continuación es ir acumulando el paso a paso, registrar el progreso y tal vez, llegar a un descente, pequeño pero entretenido videojuego hecho en HTML CSS y JavaScript.
 
-Iniciamos con la creación del canvas y luego la creación de varias funciones como el objetivo que es la imagen de un tiro al balnco, la función limpiarPantalla, actualizarPantalla, sortearPosicion, disenharObjetivo, actualizarPantalla y disparar. El canvas que se convierte en el área del juego y donde se regitran los disparos. Al final de esta etapa, el código queda en esto:
+Te describo lo que hicimos: Iniciamos con la creación del canvas y luego la creación de varias funciones. El objetivo es crear una imagen de un tiro al blanco, y con el mouse dispara al blanco que es una diana. Las funciones limpiarPantalla, actualizarPantalla, sortearPosicion, disenharObjetivo, actualizarPantalla y disparar son creadas para el desarrollo del minijuego. El canvas que se convierte en el área del juego y donde se regitran los disparos. Al final de esta etapa, el código queda en esto:
 
 **target.html**
 
@@ -160,9 +162,11 @@ Iniciamos con la creación del canvas y luego la creación de varias funciones c
 
     </script> 
 
-El resultado me gusto y quice ir mas allá. No tengo claro por que recorde los videojuego de la vieja escuela. Esos del *"Atari 2600"*, con sus imagenes de 8-bit pero, me agrado la idea de mejorarlo utilizando un personaje de *Space-invaders*. La función cómo realizaba el personaje no era la mejor y gracias a un compañero del aula virtual donde estoy estudiando el cual me hablo de una mejor forma eficiente de hacer el mapa de bits (bitmap en ingles) del personaje. Logré aprender algo nuevo y a mejorar mi código.Gracias a eso puede hacer el personaje de una forma mas sencilla y elegante. Esto me alento a seguir mejorando y se me ocurrio animarlo. 
+El resultado me gusto pero, quice ir mas allá. No tengo claro por que recorde los videojuego de la vieja escuela. Esos del *"Atari 2600"*, con sus imagenes de 8-bit pero, me agrado la idea de mejorarlo utilizando un personaje de *Space-invaders*. La primer dificultad fue crear al personaje, no quice ponerme a buscar una imagen, hacer un "sprite" y todo eso. La verdad me sentia llendo en contra de la esencia **8-bit**. Logré una función que dibujaba el personaje, no era la mejor función, sin embargo, funcionaba. Pero, gracias a un compañero del aula virtual donde estoy estudiando, que pudo orientarme hacia algo que yo estaba insinuando con mi código pero que no estaba del todo ejecutado y que es una mejor forma, más eficiente de hacer el mapa de bits (bitmap en ingles) del personaje. Logré aprender algo nuevo que mejora mi código. Gracias a eso puede hacer el personaje de una forma mas sencilla y elegante. Esto me alento a seguir mejorando y se me ocurrio animar el personaje. 
 
-El resultado parcial es un pequeño videojuego basado en el anterior algoritmo *target.html* pero, con un personaje animado. Cuando veo un personaje en los videojuego hay algo que se activa en mi y seguro los que saben de videojuegos lo podrán justificar mejor. 
+El resultado parcial, es un pequeño minivideojuego basado en el anterior algoritmo *target.html* pero, con un personaje animado. 
+
+> ###### Cuando veo un personaje en los videojuego, hay algo que se activa en mi. No estoy muy seguro de lo que es pero, son más interesantes. Seguro los que saben de videojuegos lo podrán justificar mejor. 
 
 **Space_invaders_minigame.html**
 
