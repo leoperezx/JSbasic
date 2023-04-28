@@ -1,5 +1,5 @@
-# <a id="my-header">JSbasic
-### </a>Repositorio de los algoritmos realizados en el curso de Alura sobre Frontend.
+# <a id="my-header">JSbasic</a>
+### Repositorio de los algoritmos realizados en el curso de Alura sobre Frontend.
 
 Los archivos presentes en esta página, son básicos en programación y son algunos de los realizados en un curso en línea que estoy realizando en el presente año (2023). El código en su mayoria esta hecho en *javascript*. Sin embargo, la intención aquí es aprender la sintaxis tanto de *JS* cómo repasar algo de *HTML*, *CSS* y *Markdown* lenguajes que he aprendido por mi propia cuenta. Realizo esta página como resumen de los algoritmos y aprovecho para realizar un registro de lo aprendido en clase. Además, reuno todos los archivos dentro de una carpeta la cual está llena de ejemplos. Cada uno de los archivos tiene solo un pequeño ejemplo de un tema en específico, por lo tanto son muy simples pero intento poner comentarios aclaratorios de temas que considero pertinentes para futuras consultas propias o ajenas.
 
@@ -11,7 +11,7 @@ Menú : | [CalculoIMC.html](#calculo) | [calculoComsumo.html](#consumo) | [salto
 
 Los siguientes algoritmos se realizaron durante el transcurso del contenido de la clase **Lógica de programación: Primeros pasos"**. Además, sigo un libro **JavaScript, Guía completa** de Alessandra Salvaggio y Gualtiero Testa. Cada video del curso y cada capítulo del libro desarrolla uno o dos algoritmos con diferentes temas, funciones y métodos que son interesantes. Trato de desarrollarlos tal cual los estudio, sin embargo, los he llegado a alterar un poco y solo consigno los más interesantes a mi criterio.
 
-**<a id="calculo">calculoImc.html**
+**<a id="calculo">calculoImc.html</a>**
 
     <meta charset="UTF-8">
 
