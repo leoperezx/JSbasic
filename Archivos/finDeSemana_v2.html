@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hola</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <style>
+        body { width: 400px; margin: 20px auto;}
+        p {
+            color:darkslategray; font-size: 26px; 
+            font-family: 'Calibri', Courier, monospace;
+            text-align: center;
+            }
+    </style>
+    
+    
+</head>
+<body>
+        <h1>Hola fin de semana, dondes estas?</h1>
+        <br>
+        <p style="font-size: 16px; border: 1px solid gray;" id="escala"></p>
+        <p id="output"></p>
+        <p style="font-size: 80px;" id="carita"></p>
+        <p id="saludo"></p>
+    
+    <script>
+        const hora = new Date().getHours(); // toma de la fecha solo la hora (0-23)h.
+        const minutos = new Date().getMinutes(); // toma de la fecha solo los minutos(0-59)min.
+        const dia = new Date().getDay();// toma el valor de la fecha el día (0-6)(Domingo-Sábado).
+        const nombre = prompt("Ingrese su nombre: "); // solicita un nombre.
+
+        // referencias de las caritas:
+        // https://www.mclibre.org/consultar/htmlcss/html/html-unicode-dibujos.html#gr-emoticonos
+        let carita = {
+            "domingo":"&#128526;", //SMILING FACE WITH SUNGLASSES
+            "lunes":"&#128528;", //NEUTRAL FACE
+            "martes":"&#128530;", //UNAMUSED FACE
+            "miercoles":"&#128531;",//FACE WITH COLD SWEAT
+            "jueves":"&#128549;",//DISAPPOINTED BUT RELIEVED FACE
+            "viernes":"&#128534;",//CONFOUNDED FACE
+            "sabado":"&#128513;"//GRINNING FACE WITH SMILING EYES
+        };
+
+        let entries = Object.entries(carita); // se define el diccionario como un objeto con las
+        let data = entries.map( ([key,val] =entry) =>{ // función anónima asignada a una variable
+            return `  ${key} es ${val} `; // imprime las llaves y los valores de el diccionario
+        });
+
+        function esFinDeSemana(){// test boleano: es fin de semana?  
+            if (dia===0 || dia===6) {return true}
+            else {return false};
+        }
+        function faltaUnDia(){// test boleano: falta un día? dependiendo, retorna mensaje diferente 
+            if (5-dia==1) {return `Toma suave, solo falta ${(5-dia)} dia y ${(23-hora)} horas y ${(59-minutos)} minutos para el fin de semana.`}
+            else {return `Toma suave, solo faltan ${(5-dia)} dias y ${(23-hora)} horas y ${(59-minutos)} minutos para el fin de semana.`};
+        }
+        
+        function queDia(name){// retorna un string
+            const nombreDia = ['Domingo','Lunes','Martes','Miércoles','Jueves','Viernes','Sábado'];
+            // la comilla invertida ejecuta primero ${} antes de hacer return
+            // estas comillas son muy comodas para acomodar string con variables
+            return `Hola ${name}, hoy es ${nombreDia[dia]}`;
+
+        }
+        console.log("faltan "+ (5-dia) + " días y "+ (24-hora) +" horas para que llegue viernes.");
+        console.log(hora);
+
+        // Operador terneario: Toma el valor dependiendo de un condicional.
+        // Variable = test booleano ? 'valor si verdadero' : 'valor si falso';
+        const valorCarita = esFinDeSemana() ? '&#128526' : '&#128549';
+        const mensaje = esFinDeSemana() ? 'Diviertete...!' : faltaUnDia(); // el operador terneario también ejecuta una función
+
+        // console.log(dia);
+        // blodue de asignación de funciones y textos.
+        document.getElementById('escala').innerHTML = data;
+        document.getElementById('output').innerHTML = queDia(nombre);
+        document.getElementById('carita').innerHTML = valorCarita;
+        document.getElementById('saludo').innerHTML = mensaje;
+        
+        
+    </script>
+</body>
+</html>
