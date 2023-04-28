@@ -46,7 +46,7 @@ Los siguientes algoritmos se realizaron durante el transcurso del contenido de l
 Menú : | [Subir](#my-header)
 ---
 
-**<a id="consumo">calculoComsumo.html**
+**<a id="consumo">calculoComsumo.html</a>**
 
     <meta charset="UTF-8">
     <script>
@@ -68,7 +68,7 @@ Menú : | [Subir](#my-header)
 Menú : | [Subir](#my-header)
 ---
 
-**<a id="salto">saltoLinea.html**
+**<a id="salto">saltoLinea.html</a>**
 
 
     <meta charset="UTF-8">
@@ -103,13 +103,13 @@ Menú : | [Subir](#my-header)
 Menú : | [Subir](#my-header)
 ---
 
-### <a id="juegos">Práctica con juegos y animaciones.
+### <a id="juegos">Práctica con juegos y animaciones.</a>
 
 Siguiendo con el curso de "programación", llegamos a un tema interesante. Llegamos a un desarrollo de un videojuego. Los siguientes algoritmos los organice de forma progresiva para llegar a un minijuego hecho en HTML, CSS y JavaScript. Lo que pretendo a continuación es ir acumulando el paso a paso, registrar el progreso y tal vez, llegar a un descente, pequeño pero entretenido videojuego hecho en HTML CSS y JavaScript.
 
 Te describo lo que hicimos: Iniciamos con la creación del canvas y luego la creación de varias funciones. El objetivo es crear una imagen de un tiro al blanco, y con el mouse dispara al blanco que es una diana. Las funciones limpiarPantalla, actualizarPantalla, sortearPosicion, disenharObjetivo, actualizarPantalla y disparar son creadas para el desarrollo del minijuego. El canvas se convierte en el área del juego y donde se registran los disparos. Al final de esta etapa, el código queda en esto:
 
-**<a id="target">target.html**
+**<a id="target">target.html</a>**
 
     <canvas width="600" height="400"> </canvas>
 
@@ -178,7 +178,7 @@ El resultado parcial, es un pequeño minivideojuego basado en el anterior algori
 
 > ###### Cuando veo un personaje en los videojuego, hay algo que se activa en mi. No estoy muy seguro de lo que es pero, son más interesantes. Seguro los que saben de videojuegos lo podrán justificar mejor. 
 
-**<a id="minigame">minigame.html**
+**<a id="minigame">minigame.html</a>**
 
     <canvas width="600" height="400"></canvas>
     <script> 
